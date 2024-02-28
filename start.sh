@@ -1,6 +1,6 @@
 echo "Cloning Repo...."
-git clone https://github.com/alexnuru1254/LazyPrincess
+git clone $UPSTREAM_REPO /LazyPrincess
 cd /LazyPrincess
-pip3 install -r requirements.txt
+pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
